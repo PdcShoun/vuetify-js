@@ -1,7 +1,16 @@
 <template>
   <div class="about pa-6">
-    <h1>About</h1>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam fuga illo tempore mollitia aut dicta accusantium rerum magnam eum debitis quis magni, repellendus aspernatur recusandae labore veniam, a facere quam?</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam fuga illo tempore mollitia aut dicta accusantium rerum magnam eum debitis quis magni, repellendus aspernatur recusandae labore veniam, a facere quam?</p>
+    <h1>About Page</h1>
+    <SimpleComponent :yourNum="100" yourName="Tao"/>
   </div>
 </template>
+
+<script>
+import SimpleComponent from '../components/SimpleComponent.vue'
+
+export default {
+  components: {
+    SimpleComponent,
+  }
+}
+</script>
