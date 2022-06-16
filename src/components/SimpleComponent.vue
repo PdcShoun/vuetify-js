@@ -6,7 +6,6 @@
         <h2>{{ number }}</h2>
         <button @click="addNum">Click me!!</button>
     </div>
-  
 </template>
 
 <script>

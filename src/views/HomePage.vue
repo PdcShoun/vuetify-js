@@ -1,15 +1,17 @@
 <template>
-  <hello-world />
+  <div>
+    <LoginCard/>
+  </div>
 </template>
 
 <script>
-import HelloWorld from '../components/HelloWorld'
+import LoginCard from '../components/LoginCard.vue'
 
 export default {
   name: 'Home',
 
   components: {
-    HelloWorld,
+    LoginCard,
   },
 }
 </script>

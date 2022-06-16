@@ -1,5 +1,5 @@
 <template>
-  <v-app id="inspire">
+  <v-app>
     <v-navigation-drawer 
       v-model="drawer"
       app>
@@ -55,6 +55,9 @@
       drawer: null,
       items: [
             { title: 'Home', icon: 'mdi-account-heart', 'to': '/' },
+            { title: 'Props', icon: 'mdi-account', 'to': '/props' },
+            { title: 'Slot', icon: 'mdi-account', 'to': '/slot' },
+            { title: 'Emit', icon: 'mdi-account', 'to': '/emit' },
             { title: 'About', icon: 'mdi-help-box', 'to': '/about' },
             ],
   }),
