@@ -1,7 +1,7 @@
 <template>
   <div>
+    <h1>Slot Page</h1>
     <slot-component>Click</slot-component>
-    <slot-component>Click 2</slot-component>
   </div>
 </template>
 

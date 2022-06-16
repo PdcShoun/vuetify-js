@@ -8,7 +8,7 @@
         <v-form>
           <v-text-field 
             label="Username"
-            prepend-icon="mdi-account-circle"
+            prepend-icon="mdi-account-clock"
           />
           <v-text-field 
             :type="showPassword ? 'text' : 'password' "
